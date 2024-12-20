@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<applications>
+	<application name="MATHS_PROBLEMS">
+		<usage_percentage>30</usage_percentage>
+		<prob_cloud_selection>100</prob_cloud_selection>
+		<poisson_interarrival>10</poisson_interarrival>
+		<delay_sensitivity>1</delay_sensitivity>
+		<active_period>45</active_period>
+		<idle_period>15</idle_period>
+		<data_upload>0.27</data_upload>
+		<data_download>0.50</data_download>
+		<task_length>280</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>2</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>2</vm_utilization_on_cloud>
+		<vm_utilization_on_mobile>0</vm_utilization_on_mobile>
+	</application>
+	<application name="SUMMARIZATION">
+		<usage_percentage>20</usage_percentage>
+		<prob_cloud_selection>100</prob_cloud_selection>
+		<poisson_interarrival>30</poisson_interarrival>
+		<delay_sensitivity>0.6</delay_sensitivity>
+		<active_period>40</active_period>
+		<idle_period>20</idle_period>
+		<data_upload>2.18</data_upload>
+		<data_download>0.12</data_download>
+		<task_length>826</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>3</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>3</vm_utilization_on_cloud>
+		<vm_utilization_on_mobile>0</vm_utilization_on_mobile>
+	</application>
+	<application name="TRANSLATION">
+		<usage_percentage>20</usage_percentage>
+		<prob_cloud_selection>100</prob_cloud_selection>
+		<poisson_interarrival>60</poisson_interarrival>
+		<delay_sensitivity>2</delay_sensitivity>
+		<active_period>60</active_period>
+		<idle_period>60</idle_period>
+		<data_upload>2.96</data_upload>
+		<data_download>3.98</data_download>
+		<task_length>2492</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>4</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>4</vm_utilization_on_cloud>
+		<vm_utilization_on_mobile>0</vm_utilization_on_mobile>
+	</application>
+	<application name="DAILY_QA">
+		<usage_percentage>30</usage_percentage>
+		<prob_cloud_selection>100</prob_cloud_selection>
+		<poisson_interarrival>20</poisson_interarrival>
+		<delay_sensitivity>0.2</delay_sensitivity>
+		<active_period>15</active_period>
+		<idle_period>45</idle_period>
+		<data_upload>0.08</data_upload>
+		<data_download>0.35</data_download>
+		<task_length>154</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>1</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>1</vm_utilization_on_cloud>
+		<vm_utilization_on_mobile>0</vm_utilization_on_mobile>
+	</application>
+</applications>
